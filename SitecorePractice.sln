@@ -19,6 +19,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecorePractice", "Sitecor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePractice..Project.Website", "src\Project\SitecorePractice\Code\SitecorePractice..Project.Website.csproj", "{193BD6BB-6FA6-4109-B399-DB7FB2242338}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_config", "_config", "{6500577D-FCE3-4743-9DF1-DECD81AECCED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{CA212705-DC94-4EE6-878A-AAC8214358F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePractice.Foundation.DependencyInjection", "src\Foundation\DependencyInjection\code\SitecorePractice.Foundation.DependencyInjection.csproj", "{B24D6CE3-CF93-48E0-96E6-9A51C2356F25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SitecorePractice.Foundation.Common", "src\Foundation\Common\code\SitecorePractice.Foundation.Common.csproj", "{EAB50AB1-7DDF-463C-9FB4-16302A12FDE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +41,14 @@ Global
 		{193BD6BB-6FA6-4109-B399-DB7FB2242338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193BD6BB-6FA6-4109-B399-DB7FB2242338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193BD6BB-6FA6-4109-B399-DB7FB2242338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24D6CE3-CF93-48E0-96E6-9A51C2356F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24D6CE3-CF93-48E0-96E6-9A51C2356F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24D6CE3-CF93-48E0-96E6-9A51C2356F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24D6CE3-CF93-48E0-96E6-9A51C2356F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAB50AB1-7DDF-463C-9FB4-16302A12FDE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB50AB1-7DDF-463C-9FB4-16302A12FDE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB50AB1-7DDF-463C-9FB4-16302A12FDE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB50AB1-7DDF-463C-9FB4-16302A12FDE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,9 +59,12 @@ Global
 		{4658D044-9371-4D1D-913F-081F16AEC6EC} = {D1016E5B-CAF2-43C2-B37C-C54BE175CA8B}
 		{E86726AF-37A7-42CD-BB9B-DBB81EEAE7D1} = {F23A0138-AA1C-468A-AD56-8E59AE970375}
 		{193BD6BB-6FA6-4109-B399-DB7FB2242338} = {E86726AF-37A7-42CD-BB9B-DBB81EEAE7D1}
+		{CA212705-DC94-4EE6-878A-AAC8214358F8} = {D1016E5B-CAF2-43C2-B37C-C54BE175CA8B}
+		{B24D6CE3-CF93-48E0-96E6-9A51C2356F25} = {CA212705-DC94-4EE6-878A-AAC8214358F8}
+		{EAB50AB1-7DDF-463C-9FB4-16302A12FDE8} = {4658D044-9371-4D1D-913F-081F16AEC6EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 		SolutionGuid = {93758006-D42B-4E3B-AD32-B4498EF8B329}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
